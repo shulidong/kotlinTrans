@@ -21,4 +21,10 @@
  ```kotlin
  data class Person(val name:String,           1)
                    val age:Int?=null)         2)
+fun main(args:Array<String>){
+  val persons = listOf(Person("Alice"),
+                       Person("Bob",age=29))
+                       val oldest = persons.maxBy(it.age?:0)
+                       println("The oldest is :$oldest")
+}
  ```
