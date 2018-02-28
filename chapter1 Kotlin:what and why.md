@@ -17,3 +17,8 @@
  还是有一些不明白，不要担心，稍后我们将详细地讨论他们。
  如果你想运行这个示例，一个简便的做法是使用线上的环境，地址是[https://try.kotl.in](https://try.kotl.in).输入以下的例子
  并点击运行按钮，代码就能执行了。
+ 
+ ```kotlin
+ data class Person(val name:String,           1>
+                   val age:Int?=null)         2>
+ ```
