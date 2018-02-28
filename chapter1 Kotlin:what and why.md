@@ -19,6 +19,6 @@
  并点击运行按钮，代码就能执行了。
  
  ```kotlin
- data class Person(val name:String,           1>
-                   val age:Int?=null)         2>
+ data class Person(val name:String,           1)
+                   val age:Int?=null)         2)
  ```
