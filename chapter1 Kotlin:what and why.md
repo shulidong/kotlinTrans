@@ -30,10 +30,16 @@ fun main(args:Array<String>){
 // The oldest is: Person(name=Bob,age=29)     7)
  ```
  1）'data'class,数据类
+ 
  2）可空类型(Int?);参数可以有默认值
+ 
  3）主函数
+ 
  4）age是指名参数
- 5）lambda表达式，[1]；“elvis”操作符
+ 
+ 5）[lambda表达式，][1]；“elvis”操作符
+ 
  6）字符串模板
+ 
  7）数据类会自动生成‘toString’方法
-[1]it是约定的迭代变量名，也可以用其他的名字.
+[1] it是约定的迭代变量名，也可以用其他的名字.
